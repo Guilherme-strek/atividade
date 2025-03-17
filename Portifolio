@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        section {
+            margin: 50px auto;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #ffd700;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Olá, eu sou Guilherme Henrique Costa</h1>
+    </header>
+    
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Gosto de jogar games,assitir ficção cientifica,assitir show de comedia,
+            a tecnologia me mostrou um universo sem limites para criar, inovar e resolver problemas.
+        </p>
+    </section>
+    
+    <section id="interesses">
+        <ul>
+           na parte profissional gostaria me tornar um programado ou um cria dor de jogos. 
+          
+        </ul>
+    </section>
+    
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>github: <a href="https://github.com/Guilherme-strek">seuemail@email.com</a></p>
+    </section>
+    
+  
+</body>
+</html>
